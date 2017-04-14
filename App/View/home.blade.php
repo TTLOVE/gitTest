@@ -14,13 +14,19 @@
 
   <div class="article">
 
+    @foreach ($articleList as $article)
+
     <h1>{{ $article['title'] }}</h1>
 
     <div class="content">
 
       {{ $article['body'] }}
 
-          </div>
+    </div>
+
+    <br>
+    
+    @endforeach
 
   </div>
 

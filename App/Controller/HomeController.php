@@ -18,8 +18,7 @@ class HomeController extends BaseController
     public function home()
     {
         $myView = new View();
-        $this->view = $myView->make('home')->with('article',Article::first())
-
+        $this->view = $myView->make('home')->with('articleList',Article::all())
             ->withTitle('good');
     }
 }
