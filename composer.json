@@ -1,0 +1,17 @@
+{
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "*",
+    "filp/whoops": "*",
+    "nette/mail": "*",
+    "predis/predis": "*",
+    "xiaoler/blade": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "App/Controller/",
+      "Model\\": "App/Model/",
+      "Service\\": "Service/"
+    }
+  }
+}
