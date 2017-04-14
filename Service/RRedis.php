@@ -13,7 +13,7 @@ class RRedis
 
 {
 
-    const CONFIG_FILE = '/config/redis.php';
+    const CONFIG_FILE = '/Config/redis.php';
 
     protected static $redis;
 

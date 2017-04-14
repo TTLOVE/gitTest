@@ -10,5 +10,5 @@ require PUBLIC_PATH.'/../bootstrap.php';
 
 // 路由配置、开始处理
 
-require BASE_PATH.'/config/routes.php';
+require BASE_PATH.'/Config/routes.php';
 

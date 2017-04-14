@@ -14,7 +14,7 @@ require BASE_PATH.'/vendor/autoload.php';
 
 $capsule = new Capsule;
 
-$capsule->addConnection(require BASE_PATH.'/config/database.php');
+$capsule->addConnection(require BASE_PATH.'/Config/database.php');
 
 $capsule->bootEloquent();
 

@@ -31,7 +31,7 @@ class Mail extends Message
 
     {
 
-        $this->config = require BASE_PATH.'/config/mail.php';
+        $this->config = require BASE_PATH.'/Config/mail.php';
 
         $this->setFrom($this->config['username']);
 
