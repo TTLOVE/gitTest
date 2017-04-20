@@ -1,3 +1,4 @@
 /vendor
 /tags
 /App/View/Cache
+composer.lock
