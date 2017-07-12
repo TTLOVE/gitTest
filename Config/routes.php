@@ -11,6 +11,10 @@ Macaw::get('fuck', function() {
     echo "成功！";
 });
 
+Macaw::get('/', function() {
+    echo 'welcome';
+});
+
 Macaw::get('home', 'Controller\HomeController@home');
 
 Macaw::get('redis', 'Controller\TeaController@testRedis');

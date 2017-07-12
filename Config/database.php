@@ -4,13 +4,13 @@ return [
 
     'driver'    => 'mysql',
 
-    'host'      => '192.168.0.160',
+    'host'      => '192.168.0.161',
 
     'database'  => 'ttest',
 
     'username'  => 'root',
 
-    'password'  => 'koalac123',
+    'password'  => 'koalac',
 
     'charset'   => 'utf8',
 
